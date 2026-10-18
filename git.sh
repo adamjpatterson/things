@@ -1,0 +1,1 @@
+git symbolic-ref HEAD refs/heads/_ && rm .git/index && git add . && git commit -m "$(date)" && git branch -D main && git branch -M _ main && git reflog expire --expire=now --all && git gc --prune=all --aggressive && git push --force --set-upstream origin main

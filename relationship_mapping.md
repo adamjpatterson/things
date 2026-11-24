@@ -1,0 +1,3 @@
+Map the relationships among this package’s modules, classes, functions, methods, and properties. Start from the public API, trace how the components interact, and label each relationship (for example, calls, wraps, inherits from, reads, or writes). Ground the map in the source code.
+
+Save the map in AGENTS.md at the package root under ## Package relationship map. Create the file or section if needed. If the section already exists, update it in place and preserve all other content.
